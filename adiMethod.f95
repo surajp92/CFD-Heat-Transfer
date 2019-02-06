@@ -5,7 +5,7 @@ USE lineADI
 
 implicit none
 real*8                             :: start, finish
-real*8, parameter                  :: DX = 1.0/80.0, DY = 1.0/80.0
+real*8,                   :: DX = 1.0/80.0, DY = 1.0/80.0
 integer*8, parameter               :: ILX = 1,ILY = 1,ILAX = 1, ILAY = 1
 integer*8                          :: IUX , IUY , IUAX , IUAY , N, NCOUNT
 integer*8                          :: I, J, ITER = 0, ntemp 
